@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <style>
+       
+        
+       
+
+       .box{
+        color: rgb(59, 2, 57);
+          position: absolute;
+          top:20%;
+          left:50%;
+          transform: translate(-50%,-50%);
+        
+       }
+       fieldset{
+           border: 3px solid purple;
+           border-radius: 7px;
+       }
+       legend{
+           border: 3px solid #800080;
+          border-radius: 8px;
+       }
+       .inputBox{
+           position: relative;
+       }
+       .inputUser{
+           outline: rgb(59, 2, 57);
+        letter-spacing: 1px;
+        border-radius: 7px;
+       }
+
+       #submit{
+           background-color: rgb(59, 2, 57);
+           width: 100%;
+           border: none;
+           padding: 7px;
+           color: white;
+           cursor: pointer;
+           border-radius: 7px;
+       }
+    
+     </style>
+</head>
+<body>
+    <img src="../img/mat (3).gif" width="100%" >;
+    <nav class="cabeçalho__menu.nav">
+
+        <!--LISTA DE LINKS-->
+        <ul class="cabeçalho__menu.nav__menu.lista">
+    
+            <li class="cabeçalho__menu.nav__menu.item"><!--SE VC DEIXAR SÓ O "UL" e "LI" vira topicos-->
+    
+                <!--"A" é de "ancora", para abrir um link ;)-->  <!--IMG P LOGO DA BARRA DO MENU E O NOME DA BARRA-->
+    <center>
+                <h1><a href="../Proj. Site de Matemática/novo.html"> PÁGINA INICIAL</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;&nbsp;<img src="" alt="">
+                <a href="../Proj. Site de Matemática/atv.html"> ATIVIDADES </a> &nbsp;&nbsp;&nbsp;
+
+                <ui><a href="../Proj. Site de Matemática/cadastro.html"> PERFIL</a></ui>
+                &nbsp; &nbsp;&nbsp;&nbsp; <img scr="" alt="">
+                <a href="../Proj. Site de Matemática/anotaçãoes.html"> NOTAS</a>
+                &nbsp; &nbsp;&nbsp;&nbsp;<img scr="" alt="">
+                <a href="../Proj. Site de Matemática/dicadeest.html"> DICAS DE ESTUDO</a></h1>
+    </h1 alight="center"></center>
+    
+    </li>
+            
+        </ul>
+    </nav>
+    <center><pre><h1><i><font face="cooper black" size="15" color="purple">Cadastro/Login</font></i></b></h1></center><br>
+
+<div class="box">
+    <form><h4>
+       <fieldset><br>
+            <legend><b>Faça seu castro conosco</b></legend>
+            <br>
+            <div class="inputBox">
+        <label for="nome">Nome completo</label>
+        <input type="text" name="nome" id="nome" class="inputUser" required ></input>
+    </div><br><br>
+    <div class="inputBox">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="inputUser" required  ></input>
+    </div><br><br>
+    <div class="inputBox">
+         <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone" class="inputUser" required  ></input>
+    </div><br><br>
+    <p>Sexo:</p> 
+     <input type="radio" id="feminino" name="gênero" value="feminino" required>
+     <label for="feminino">Feminino</label>
+     <input type="radio" id="masculino" name="gênero" value="masculino" required>
+     <label for="masculino">Masculino</label>
+     <input type="radio" id="outro" name="gênero" value="outro" required>
+     <label for="outro">Outro</label>
+     <br><br>
+    <label for="data_nascimento"><b>Data de nascimento:</b></label>
+     <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required  ></input>
+     <div class="inputBox">
+        <br><br>
+        <div class="inputBox">
+            <label for="cidade">Cidade</label>
+            <input type="text" name="cidade" id="cidade" class="inputUser" required ></input>
+        </div><br><br>
+        <div class="inputBox">
+            <label for="estado">Estado</label>
+            <input type="text" name="estado" id="estado" class="inputUser" required ></input>
+        </div><br><br>
+        <div class="inputBox">
+            <label for="endereço">Endereço</label>
+            <input type="text" name="endereço" id="endereço" class="inputUser" required ></input>
+        </div><br>
+        <input type="submit" name="submit" id="submit">
+        </fieldset>
+    
+    
+    </h1>
+    </form>
+    </div>
+
+</body>
+</html>
